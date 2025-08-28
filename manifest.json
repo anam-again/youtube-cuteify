@@ -1,0 +1,27 @@
+{
+    "manifest_version": 2,
+    "name": "youtube-cuteify",
+    "version": "1.0",
+    "description": "Replaces Youtube thumbnails with the better version",
+    "icons": {
+        "48": "icons/icon-48.png"
+    },
+    "permissions": [
+        "storage",
+        "*://*.youtube.com/*"
+    ],
+    "content_scripts": [
+        {
+            "matches": [
+                "*://*.youtube.com/*"
+            ],
+            "js": [
+                "youtube-cuteify.js"
+            ],
+            "run_at": "document_idle"
+        }
+    ],
+    "web_accessible_resources": [
+        "thumbs/*.png"
+    ]
+}
