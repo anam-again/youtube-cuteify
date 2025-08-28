@@ -8,6 +8,6 @@ This add-on makes your youtube look way better.
 
 This is what it looks like:
 
-![Picture of Add-on in action](https://github.com/uses-anam/youtube-cuteify/blob/main/github/thumbnail.png?raw=true)
+![Picture of Add-on in action](https://github.com/anam-again/youtube-cuteify/blob/main/github/thumbnail.png)
 
 Maybe it will help you be less distracted?
